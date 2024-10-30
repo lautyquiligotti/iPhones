@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Recursos/bases.css">
+    <link rel="stylesheet" href="Recursos/fonts.css">
+    <link rel="icon" href="Recursos/Imagenes/logo.png">
+    <title>iStore - Venta de iPhones</title>
+</head>
+<body>
+    <header>
+        <div class="iphones16"></div>
+        <div class="titulo">
+            <h1>iStore - iPhone en Córdoba</h1>
+        </div>
+    </header>
+    
+    <main>
+        <section class="info">
+            <p>iPhones nuevos sellados en <span>Córdoba</span>, somos tu mejor opción</p> 
+            <a href="presentacion.html" class="link-info" target="_blank">Info del dueño</a>
+        </section>
+
+        <section class="catalogo">
+            <a href="https://linktr.ee/iStore__cba" target="_blank">CATÁLOGO</a>
+        </section>
+
+        <section class="acciones">
+            <input type="text" id="textoBusqueda" placeholder="Buscar producto...">
+            <button id="botonFiltrar">Filtrar</button>
+        </section>
+
+        <!-- Contenedor para los productos -->
+        <section id="contenedor" class="productos"></section>
+
+        <div class="box-gradiente"></div>
+    </main>
+
+    <footer>
+        <form class="formulario">
+            <input class="formulario_input" type="text" placeholder="Nombre">
+            <input class="formulario_input" type="email" placeholder="Correo">
+            <textarea class="formulario_input" placeholder="Consulta"></textarea>
+            <button type="submit" class="formulario_submit">Enviar</button>
+        </form>
+    </footer>
+
+    <!-- Mover los scripts al final del body -->
+    <script defer src="index-referencia.js"></script>
+    <script defer src="index.js"></script>
+</body>
+</html>

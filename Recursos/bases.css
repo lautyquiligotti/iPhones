@@ -1,0 +1,121 @@
+/* BASE */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  color: #333;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.iphones16 {
+  width: 100%;
+  height: 500px;
+  background-image: url('https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2024/09/09/apple-iphone-16.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* SECCIONES */
+.info, .catalogo, .acciones, .productos, .nuevos {
+  text-align: center;
+  padding: 20px;
+}
+
+.catalogo a, .link-info {
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.faltante {
+  color: red;
+  font-weight: bold;
+}
+
+/* FORMULARIO */
+.formulario {
+  background: #f8f9fa;
+  padding: 30px;
+  text-align: center;
+}
+
+.formulario_input, .formulario_submit {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario_submit {
+  background-color: #007bff;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* CAJA DEGRADADA */
+.box-gradiente {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to right, #000, transparent);
+  margin: 20px 0;
+}
+
+.titulo {
+  background: linear-gradient(to right, #333, transparent);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.producto-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 500px; /* Ajusta el tamaño máximo de cada producto */
+}
+
+.producto-imagen {
+  width: 80px; /* Tamaño más pequeño de la imagen */
+  height: auto;
+  margin-right: 15px; /* Espaciado entre imagen y detalles */
+  border-radius: 5px;
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px; /* Ajusta el ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor en la página */
+  padding: 20px;
+}
+
+.producto-detalle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Tarjeta de presentacion */
+.bodyCard{
+  background-color: black;
+}
+.personalCard{
+  background-color: coral;
+  text-align: center;
+  margin: 0;
+}
+
