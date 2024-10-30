@@ -1,106 +1,109 @@
 /* BASE */
-body, html {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f3f3f3;
-  color: #333;
+body, html { /* Estilo básico para el cuerpo y el documento HTML */
+  margin: 0; /* Sin márgenes */
+  padding: 0; /* Sin relleno */
+  font-family: Arial, sans-serif; /* Fuente Arial o sans-serif */
+  background-color: #f3f3f3; 
+  color: #333; 
 }
 
 h1 {
-  color: #333;
-  text-align: center;
+  color: #333; /* Color del título */
+  text-align: center; /* Centrado */
 }
 
-.iphones16 {
-  width: 100%;
-  height: 500px;
+.iphones16 { /* Imagen de fondo del iPhone 16 */
+  width: 100%; /* Ancho completo */
+  height: 500px; /* Altura fija */
   background-image: url('https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2024/09/09/apple-iphone-16.jpeg');
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: cover; /* Imagen cubre todo el área */
+  background-attachment: fixed; /* Imagen fija al hacer scroll */
 }
 
 /* SECCIONES */
-.info, .catalogo, .acciones, .productos, .nuevos {
-  text-align: center;
-  padding: 20px;
+.info, .catalogo, .acciones, .productos, .nuevos { /* Secciones generales */
+  text-align: center; /* Centrado */
+  padding: 20px; /* Espaciado interno */
 }
 
-.catalogo a, .link-info {
-  text-decoration: none;
-  color: white;
-  background-color: #007bff;
-  padding: 10px 20px;
-  border-radius: 5px;
+.catalogo a, .link-info { /* Estilo de enlaces */
+  text-decoration: none; /* Sin subrayado */
+  color: white; /* Texto blanco */
+  background-color: #007bff; /* Fondo azul */
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
 }
 
-.faltante {
-  color: red;
-  font-weight: bold;
+.faltante { /* Estilo para texto faltante */
+  color: red; /* Texto rojo */
+  font-weight: bold; /* Texto en negrita */
 }
 
 /* FORMULARIO */
 .formulario {
-  background: #f8f9fa;
-  padding: 30px;
-  text-align: center;
+  background: #f8f9fa; /* Fondo claro */
+  padding: 30px; /* Espaciado interno */
+  text-align: center; /* Centrado */
 }
 
-.formulario_input, .formulario_submit {
-  width: 90%;
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.formulario_input, .formulario_submit { /* Campos y botón del formulario */
+  width: 90%; /* Ancho casi completo */
+  padding: 10px; /* Espaciado interno */
+  margin: 5px 0; /* Margen vertical */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
 }
 
-.formulario_submit {
-  background-color: #007bff;
-  color: white;
-  text-transform: uppercase;
-  font-weight: bold;
-  cursor: pointer;
+.formulario_submit { /* Botón de envío del formulario */
+  background-color: #007bff; /* Fondo azul */
+  color: white; /* Texto blanco */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  font-weight: bold; /* Texto en negrita */
+  cursor: pointer; /* Puntero al pasar el ratón */
 }
 
 /* CAJA DEGRADADA */
 .box-gradiente {
-  width: 100%;
-  height: 100px;
-  background: linear-gradient(to right, #000, transparent);
-  margin: 20px 0;
+  width: 100%; /* Ancho completo */
+  height: 100px; /* Altura fija */
+  background: linear-gradient(to right, #000, transparent); /* Degradado de negro a transparente */
+  margin: 20px 0; /* Margen vertical */
 }
 
 .titulo {
-  background: linear-gradient(to right, #333, transparent);
-  padding: 20px;
-  color: white;
-  text-align: center;
+  background: linear-gradient(to right, #333, transparent); /* Degradado para el fondo del título */
+  padding: 20px; /* Espaciado interno */
+  color: white; /* Texto blanco */
+  text-align: center; /* Centrado */
 }
 
-.producto-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 8px;
-  max-width: 500px; /* Ajusta el tamaño máximo de cada producto */
+.producto-item { /* Estilo de cada producto */
+  flex: 1 1 200px; /* Tamaño flexible de cada tarjeta (200px mínimo) */
+  max-width: 220px; /* Tamaño máximo de cada tarjeta */
+  display: flex; /* Flexbox interno para organizar imagen y detalles */
+  flex-direction: column; /* Dirección en columna para cada tarjeta */
+  align-items: center; /* Centrado de contenido en la tarjeta */
+  margin-bottom: 20px; /* Espaciado inferior */
+  border: 1px solid #ddd; /* Borde gris */
+  padding: 10px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
 }
 
-.producto-imagen {
-  width: 80px; /* Tamaño más pequeño de la imagen */
-  height: auto;
-  margin-right: 15px; /* Espaciado entre imagen y detalles */
-  border-radius: 5px;
+.producto-imagen { /* Imagen del producto */
+  width: 80px; /* Ancho fijo */
+  height: auto; /* Altura automática */
+  margin-right: 15px; /* Espacio entre imagen y detalles */
+  border-radius: 5px; /* Bordes redondeados */
 }
 
-#contenedor {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 600px; /* Ajusta el ancho máximo del contenedor */
-  margin: 0 auto; /* Centra el contenedor en la página */
-  padding: 20px;
+#contenedor { /* Contenedor de productos */
+  display: flex; /* Permite el diseño flexible */
+  flex-wrap: wrap; /* Permite que los elementos se ajusten a la siguiente fila cuando no hay espacio */
+  gap: 20px; /* Espacio entre los elementos */
+  justify-content: center; /* Centra las filas */
+  max-width: 1200px; /* Tamaño máximo del contenedor */
+  margin: 0 auto; /* Centrado en la página */
+  padding: 20px; /* Espaciado interno */
 }
 
 .producto-detalle {

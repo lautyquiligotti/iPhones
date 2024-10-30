@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Recursos/bases.css">
-    <link rel="stylesheet" href="Recursos/fonts.css">
-    <link rel="icon" href="Recursos/Imagenes/logo.png">
+    <link rel="stylesheet" href="Recursos/bases.css">  <!-- Enlaza la hoja de estilos -->
+    <link rel="stylesheet" href="Recursos/fonts.css"> <!-- Enlaza la hoja de fuentes -->
+    <link rel="icon" href="Recursos/Imagenes/logo.png"> <!-- Agrega el ícono de la página para la pestaña del navegador -->
     <title>iStore - Venta de iPhones</title>
 </head>
 <body>
     <header>
-        <div class="iphones16"></div>
+        <div class="iphones16"></div> <!-- Div con imagen de fondo del iPhone (configurado en CSS) -->
         <div class="titulo">
             <h1>iStore - iPhone en Córdoba</h1>
         </div>
@@ -19,22 +19,21 @@
     <main>
         <section class="info">
             <p>iPhones nuevos sellados en <span>Córdoba</span>, somos tu mejor opción</p> 
-            <a href="presentacion.html" class="link-info" target="_blank">Info del dueño</a>
+            <a href="presentacion.html" class="link-info" target="_blank">Info del dueño</a> <!-- Enlace a la página de presentación del dueño, abre en una nueva pestaña -->
         </section>
 
         <section class="catalogo">
-            <a href="https://linktr.ee/iStore__cba" target="_blank">CATÁLOGO</a>
+            <a href="https://linktr.ee/iStore__cba" target="_blank">CATÁLOGO</a> <!-- Enlace al catálogo externo de productos -->
         </section>
 
         <section class="acciones">
-            <input type="text" id="textoBusqueda" placeholder="Buscar producto...">
-            <button id="botonFiltrar">Filtrar</button>
+            <input type="text" id="textoBusqueda" placeholder="Buscar producto..."> <!-- Campo de texto para ingresar el término de búsqueda -->
+            <button id="botonFiltrar">Filtrar</button> <!-- Botón para activar el filtro de búsqueda -->
         </section>
 
-        <!-- Contenedor para los productos -->
-        <section id="contenedor" class="productos"></section>
+        <section id="contenedor" class="productos"></section> <!-- Contenedor vacío donde se mostrarán los productos generados por JavaScript -->
 
-        <div class="box-gradiente"></div>
+        <div class="box-gradiente"></div> <!-- Efecto visual de degradado, configurado en CSS -->
     </main>
 
     <footer>
@@ -47,7 +46,8 @@
     </footer>
 
     <!-- Mover los scripts al final del body -->
-    <script defer src="index-referencia.js"></script>
-    <script defer src="index.js"></script>
+    <script defer src="index-referencia.js"></script> <!-- Enlace a JS (con defer para cargar después de la página) -->
+    <script defer src="index.js"></script> <!-- Enlace a JS (con defer para cargar después de la página) -->
 </body>
 </html>
+
