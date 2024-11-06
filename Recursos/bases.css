@@ -14,7 +14,7 @@ h1 {
 
 .iphones16 { /* Imagen de fondo del iPhone 16 */
   width: 100%; /* Ancho completo */
-  height: 1000px; /* Altura fija */
+  height: 400px; /* Altura fija */
   background-image: url('Imagenes/iPhone_16.png'); /* Ruta relativa a la imagen local */
   background-size: cover; /* Imagen cubre todo el área */
   background-attachment: fixed; /* Imagen fija al hacer scroll */
